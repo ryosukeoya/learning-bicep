@@ -13,6 +13,22 @@
         "name": "Standard",
         "tier": "Standard"
       }
+    },
+    "sqlServerAdministratorLogin": {
+      "reference": {
+        "keyVault": {
+          "id": "/subscriptions/cc95ddc9-bfe3-4e6b-94f1-f6e9f20ae3bc/resourceGroups/learn-e85a1960-c636-45df-b9ee-52cb802a80ff/providers/Microsoft.KeyVault/vaults/ryo-key-vault-12345"
+        },
+        "secretName": "sqlServerAdministratorLogin"
+      }
+    },
+    "sqlServerAdministratorPassword": {
+      "reference": {
+        "keyVault": {
+          "id": "/subscriptions/cc95ddc9-bfe3-4e6b-94f1-f6e9f20ae3bc/resourceGroups/learn-e85a1960-c636-45df-b9ee-52cb802a80ff/providers/Microsoft.KeyVault/vaults/ryo-key-vault-12345"
+        },
+        "secretName": "sqlServerAdministratorPassword"
+      }
     }
   }
 }
