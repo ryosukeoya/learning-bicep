@@ -1,1 +1,0 @@
-https://learn.microsoft.com/ja-jp/training/modules/build-flexible-bicep-templates-conditions-loops/5-exercise-loops?pivots=cli
